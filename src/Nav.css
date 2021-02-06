@@ -1,0 +1,119 @@
+.nav__contents {
+  height: 100%;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__contents svg {
+  font-size: 23px;
+  margin-right: 32px;
+  cursor: pointer;
+}
+.nav__contents1,
+.nav__contents2 {
+  display: flex;
+  align-items: center;
+}
+.nav__logo {
+  width: 120px;
+  cursor: pointer;
+  object-fit: contain;
+}
+.nav__contents1-navItems {
+  list-style: none;
+  display: flex;
+  color: #fff;
+  margin-left: 10px;
+}
+.nav__contents1-navItems li {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.nav__contents1-navItems li:hover {
+  opacity: 0.8;
+}
+.nav__contents2 {
+  position: relative;
+}
+.nav__contents2-profile {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.nav__avatar {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-right: 6px;
+}
+.nav__contents2-profile > svg {
+  font-size: 18px;
+}
+.nav__black {
+  background-color: #111;
+}
+.nav__account-dropdown {
+  position: absolute;
+  right: 18%;
+  top: 48px;
+  width: 181px;
+  margin-left: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 1000;
+}
+.nav__dropdown-profiles {
+  list-style: none;
+  padding: 6px;
+}
+.nav__dropdown-profile {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 5px 10px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.nav__dropdown-profile > img {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+.nav__dropdown-profile > p {
+  margin: 0;
+  font-size: 14px;
+}
+.nav__dropdown-manage {
+  border-bottom: 0.8px solid hsla(0, 0%, 100%, 0.4);
+}
+.nav__dropdown-manage > p {
+  margin-bottom: 8px;
+  margin-left: 8px;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.nav__dropdown-manage > p:hover {
+  text-decoration: underline;
+}
+.nav__dropdown-account {
+  list-style: none;
+  padding: 6px;
+}
+.nav__dropdown-account li {
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+.nav__dropdown-account li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
